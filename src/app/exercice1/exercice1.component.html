@@ -1,0 +1,11 @@
+<h1>C'est mon {{ name }}</h1>
+<div
+  [style.height]="height"
+  [style.width]="width"
+  [style.backgroundColor]="colorBack"
+  [style.border]="borderRed"
+  (mouseenter)="changeDiv($event)"
+  (mouseleave)="reChangeDiv($event)"
+  (click)="changeSize($event)"
+>
+</div>
